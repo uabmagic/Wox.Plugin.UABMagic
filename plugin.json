@@ -1,0 +1,12 @@
+{
+  "ID": "16a98d2b86d649818524af54bce23387",
+  "ActionKeyword": "uab",
+  "Name": "UABMagic",
+  "Description": "See what's currently playing on UABMagic",
+  "Author": "UABMagic",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "https://github.com/uabmagic/Wox.Plugin.UABMagic",
+  "IcoPath": "Images\\logo.png",
+  "ExecuteFileName": "Wox.Plugin.UABMagic.dll"
+}
