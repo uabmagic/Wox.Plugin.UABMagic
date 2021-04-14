@@ -28,7 +28,7 @@ namespace Wox.Plugin.UABMagic
         {
             using (var httpClient = new HttpClient())
             {
-                var response = Task.Run(async () => await httpClient.GetStringAsync("https://uabmagic-api.now.sh/api/songs/nowplaying")).Result;
+                var response = Task.Run(async () => await httpClient.GetStringAsync("https://uabmagic-api.vercel.app/api/songs/nowplaying")).Result;
                 var jsonObject = JObject.Parse(response);
 
                 return new CurrentTrack
